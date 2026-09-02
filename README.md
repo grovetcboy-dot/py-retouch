@@ -2,6 +2,26 @@
 
 用 Python (NumPy/OpenCV) 实现 Lightroom/DaVinci 风格的照片调色，支持 AI Agent 自动调色。
 
+## 效果图
+
+每组左为原图、右为调色结果（均为本工具单次处理直出，无后期）。
+
+**柯达 Kodachrome 风格**（`--set film_stock=kodachrome`）
+
+![Kodachrome](docs/images/kodachrome.jpg)
+
+**CineStill 800T 风格**（`--set film_stock=800t`，冷调 + 红色光晕）
+
+![800T](docs/images/800t.jpg)
+
+**柯达 Vision3 250D (5207) 电影负片风格**（`--set film_stock=5207`）
+
+![5207](docs/images/5207_a.jpg)
+
+**FUJIFILM CLASSIC Neg.**（富士官方 F-Log2 LUT，需自行下载 `.cube` 放入 `luts/`）
+
+![CLASSIC Neg.](docs/images/classic_neg.jpg)
+
 ## 快速开始
 
 ```bash
