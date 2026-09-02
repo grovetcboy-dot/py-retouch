@@ -1,0 +1,8 @@
+output/
+原图/
+修改后/
+luts/
+__pycache__/
+core/__pycache__/
+*.pyc
+.DS_Store

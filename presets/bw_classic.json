@@ -1,0 +1,9 @@
+{
+  "saturation": -1.0,
+  "contrast": 0.25,
+  "film_curve": true,
+  "film_contrast": 0.35,
+  "grain_amount": 0.35,
+  "grain_size": 1.4,
+  "fade_lift": 0.02
+}
